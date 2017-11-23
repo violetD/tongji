@@ -1,0 +1,68 @@
+.login-wrapper {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/login_bak.jpg);
+  background-size: cover;
+}
+.login-wrapper-inner {
+  height: 100%;
+  padding-top: 3rem;
+  background: linear-gradient(to bottom, rgba(135, 175, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+  box-sizing: border-box;
+}
+
+.login-container {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+.login-container h1 {
+  margin: 0;
+  text-align: center;
+  padding: 1em 0 .5em;
+  color: #fff;
+  font-weight: normal;
+}
+.login-wrapper .login-container .am-list-body::before, .login-wrapper .login-container .am-list-body::after {
+  height: 0;
+}
+.login-container .am-list-body, .login-container .am-list-item {
+  background-color: transparent;
+}
+.login-container .am-list-item .am-input-label {
+  color: #fff;
+}
+.login-container .am-list-item .am-input-control input {
+  color: #fff;
+  height: 100%;
+}
+.login-container .am-list-item.am-input-item {
+  height: 4rem;
+  margin-bottom: .5rem;
+}
+.login-container .am-input-control {
+  height: 100%;
+}
+.login-container .am-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.login-container .am-list-item .am-input-label.am-input-label-2 {
+  width: 2.5rem;
+}
+.login-container .button-line {
+  margin-top: 4rem;
+}
+.login-container .am-button-primary {
+  border-radius: 3rem;
+  color: rgba(255,255,255,.8);
+  transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+}
+.am-icon.logo {
+  width: 5rem;
+  height: 5rem;
+}

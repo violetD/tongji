@@ -1,0 +1,98 @@
+@import '~antd/es/grid/style/index.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: transparent;
+}
+
+table {
+  background-color: #fff;
+  width: 100%;
+}
+table tr {
+  border-bottom: 1px solid rgb(224, 224, 224); 
+  color: rgba(0, 0, 0, 0.87); 
+  height: 48px;
+}
+table tbody>tr:nth-child(odd)>td,table tbody>tr:nth-child(odd)>th {
+  background-color: #f9f9f9
+}
+
+.app-content a {
+  color: #00BCD4;
+  text-decoration: underline;
+}
+
+.my-drawer .am-drawer-sidebar .am-list-content a { 
+  display: block;
+  width: 100%;
+  color: #666;
+  text-decoration: none;
+}
+.am-drawer.my-drawer {
+  position: relative;
+  overflow: auto;
+  overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+  background-color: #fff;
+  overflow: auto;
+  overflow-scrolling: touch;
+}
+
+.summary-title {
+  list-style: none;
+  padding: 0 0 0 1rem;
+  margin: 0;
+  line-height: 3rem;
+}
+.summary-title a {
+  font-size: 1.2rem;
+  color: rgb(255, 64, 129);
+}
+.summary-title a:before {
+  content: '¥';
+}
+.data-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  white-space: normal;
+}
+.data-links li {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+}
+.data-links a {
+  display: block;
+}
+.chart-row .am-list-item {
+  padding-left: 0;
+}
+.chart-row .am-list-line {
+  padding-right: 0;
+}
+.chart-row h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+.chart-row p {
+  margin: 0;
+  font-size: 1rem;
+}
+.icon-links .am-flexbox-item {
+  text-align: center;
+}
+.icon-links .am-icon {
+  color: #00BCD4;
+  width: 3rem;
+  height: 3rem;
+}
+.icon-links a {
+  display: block;
+}
